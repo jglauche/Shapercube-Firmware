@@ -1,0 +1,17 @@
+Shapercube firmware
+
+Fork of Tonokip RepRap firmware rewrite based off of Hydra-mmm firmware.
+
+Modified for Shapercube 1.x or 2.x with stepper extruder head
+
+NOTE: Baud rate is set by default to 115200, this has to be set on the host
+too!
+
+Licence: GPL
+
+Not implemented yet:
+
+G28 (Home all)
+Dual extruder support
+Bed temperature control
+

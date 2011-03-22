@@ -1,17 +1,29 @@
-Shapercube firmware
+Shapercube Firmware
+-----------------------------
 
 Fork of Tonokip RepRap firmware rewrite based off of Hydra-mmm firmware.
 
-Modified for Shapercube 1.x or 2.x with stepper extruder head
+This firmware is made to be compatible to Shapercubes with Arduino Mega +
+RAMPS shield and to implement machine specialities.
+
+
+Compatibility:
+----------------------------
+
+Tested:
+- Shapercube 2.0
+
+Untested:
+- Shapercube 1.x with RAMPS+Stepper extruder upgrade
+
+Not working:
+- Shapercube 1.x with original DC extruder
+
+
 
 NOTE: Baud rate is set by default to 115200, this has to be set on the host
 too!
 
 Licence: GPL
 
-Not implemented yet:
-
-G28 (Home all)
-Dual extruder support
-Bed temperature control
 

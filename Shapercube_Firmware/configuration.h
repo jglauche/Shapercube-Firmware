@@ -1,12 +1,8 @@
 #ifndef PARAMETERS_H
 #define PARAMETERS_H
 
-// NO RS485/EXTRUDER CONTROLLER SUPPORT
-// PLEASE VERIFY PIN ASSIGNMENTS FOR YOUR CONFIGURATION!!!!!!!
-#define MOTHERBOARD 3 // ATMEGA168 0, SANGUINO 1, MOTHERBOARD = 2, MEGA 3, ATMEGA328 4
 
-// THERMOCOUPLE SUPPORT UNTESTED... USE WITH CAUTION!!!!
-const bool USE_THERMISTOR = true; //Set to false if using thermocouple
+const bool USE_THERMISTOR = true;
 
 // Calibration formulas
 // e_extruded_steps_per_mm = e_feedstock_steps_per_mm * (desired_extrusion_diameter^2 / feedstock_diameter^2)
@@ -40,7 +36,7 @@ const bool DISABLE_Z = true;
 const bool DISABLE_E = false;
 const bool DISABLE_E2 = false;
 
-const bool INVERT_X_DIR = ;
+const bool INVERT_X_DIR = false;
 const bool INVERT_Y_DIR = false;
 const bool INVERT_Z_DIR = false;
 const bool INVERT_E_DIR = true;
